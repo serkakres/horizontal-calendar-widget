@@ -4,7 +4,7 @@ dayNames: ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
 monthNames: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
 offdayIndices: [4], // Fr, Sa
 
-refreshFrequency: 5000,
+refreshFrequency: 1800000, // 30min
 displayedDate: null,
 
 render: function (output) {
