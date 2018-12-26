@@ -2,7 +2,7 @@ command: "echo Hello World!",
 // command: 'date -v1d +"%e"; date -v1d -v+1m -v-1d +"%d"; date +"%d%n%m%n%Y"',
 dayNames: ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
 monthNames: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
-offdayIndices: [4], // Fr, Sa
+offdayIndices: [5], // Fr, Sa
 
 refreshFrequency: 1800000, // 30min
 displayedDate: null,
